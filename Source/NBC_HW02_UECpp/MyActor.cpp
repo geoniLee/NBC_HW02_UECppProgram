@@ -92,7 +92,7 @@ void Move(FVector& pos) {
 		-1,
 		3,
 		FColor::Cyan,
-		FString::Printf(TEXT("이동한 좌표: (%.1f, %.1f, %.1f)"), pos.X, pos.Y, pos.Z)
+		FString::Printf(TEXT("이동한 좌표: (%.1f, %.1f, %.1f), 이동 거리: %.2fcm"), pos.X, pos.Y, pos.Z, newDist)
 	);
 
 	// 이벤트 호출(50%)
